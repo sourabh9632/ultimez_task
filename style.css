@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rowdies:wght@300&display=swap');
+body{
+    background-color: rgba(0, 45, 90, 1) !important;
+}
+
+.parent_block{
+    margin: 0 auto;
+   overflow-x: hidden;
+ 
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 40px !important;
+    color: rgba(0, 45, 90, 1) !important;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: rgb(0, 74, 148) !important;
+    font-weight:600 ;
+     
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.first_block{
+    background: url('./images/newimg.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.far{
+    font-size: 15px;
+    padding: 10px;
+    color: yellow;
+}
+
+.fas{
+    font-size: 15px;
+    padding: 10px;
+    color: yellow;
+}
+.time_text{
+    color: white;
+    text-align: left;
+}
+.telephone_data{
+   text-align: right;
+}
+ 
+.blur_block{
+    height: 500px;
+    background:transparent;
+    backdrop-filter: blur(70px);
+
+}
+
+.first_page_text_one{
+     text-align: center;
+     position: absolute;
+     top: 40%;
+     left:10%;
+     font-size: 80px;
+ font-weight: bold;
+     color: rgba(0, 45, 90, 1);
+     padding-left: 40px;
+     
+}
+
+
+.first_page_para{
+    text-align: center;
+     position: absolute;
+     top: 60%;
+     left:10%;
+     font-size: 30px;
+     color: rgba(0, 45, 90, 1);
+     font-weight: 600;
+     padding-left: 40px;
+     
+}
+
+.first_page_para p{
+    font-size: 21px;
+}
+
+ 
+ 
+ 
+.footer_data{
+  margin-top: 70px;
+  
+}
+
+.primary_text{
+    font-family: 'Rowdies', cursive;
+    color: white;
+}
+
+.primary_paragraph{
+    color: white;
+}
+
+.footer_button{
+    align-items: center;
+    text-align: center;
+   
+}
+
+.button_last{
+    padding: 15px 40px;
+    background-color: #FED627;
+    color: blue;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+@media  (max-width:576px){
+    .time_text{
+        font-size: 10px;
+    }
+    .telephone_data {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .navbar-brand{
+        font-size: 25px !important;
+    }
+
+    .first_page_text_one{
+        font-size: 50px;
+    }
+    .first_page_para p{
+        font-size: 20px;
+    }
+
+    .first_page_para{
+      padding-left: 20px;
+      top: 50%;
+ 
+    }
+
+    .primary_text{
+        font-size: 20px;  
+    }
+
+    .primary_paragraph {
+        font-size: 10px;
+    }
+
+  .footer_button{
+    margin-top: 30px;
+  }
+  .button_last{
+    padding: 10px 20px;
+  }
+
+
+  @media (min-width:576px) and (max-width:776px) {
+
+    .first_page_text_one{
+        font-size: 70px;
+        left: 15%;
+    }
+
+    .first_page_para p{
+        font-size: 30px;
+    }
+
+
+    .first_page_para{
+        top: 60%;
+        
+    }
+  
+  }
+
+  .primary_text{
+    font-size: 28px;
+  }
+
+  .primary_paragraph {
+    font-size: 18px;
+  }
+
+  
+
+}
